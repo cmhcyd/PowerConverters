@@ -181,6 +181,9 @@ public final class PowerConverterCore {
             }
             ((PowerSteam)manager.getPowerSystemByName(PowerSteam.id)).addSteamType("ic2steam", "IC2 Steam", 4000, 4000);
             ((PowerSteam)manager.getPowerSystemByName(PowerSteam.id)).addSteamType("ic2superheatedsteam", "IC2 Superheated Steam", 8000, 8000);
+            ((PowerSteam)manager.getPowerSystemByName(PowerSteam.id)).addSteamType("nitrofuel", "nitrofuel", 4000000, 4000000);
+            ((PowerSteam)manager.getPowerSystemByName(PowerSteam.id)).addSteamType("fluid.rocketfuelmixa", "fluid.rocketfuelmixa", 50352000, 50352000);
+            ((PowerSteam)manager.getPowerSystemByName(PowerSteam.id)).addSteamType("naquadah based liquid fuel mkvi", "naquadah based liquid fuel mkvi", 2147483647, 2147483647);
         }
         if(Loader.isModLoaded("Railcraft")) {
             enabledRecipes.add(new RecipeRailcraft());
